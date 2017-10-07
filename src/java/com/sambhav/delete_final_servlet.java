@@ -55,6 +55,8 @@ public class delete_final_servlet extends HttpServlet {
             else
             out.println("<h1>ERROR!!!!</h1>");
             
+            out.println("<br><center><h3> <a href= \"index.html\">Back to Choice Page </a> ");
+            out.println("<br><br><center><h3> <a href= \"stu_delete.jsp\">Delete Another Entry </a> ");
             
             out.println("</body>");
             out.println("</html>");
